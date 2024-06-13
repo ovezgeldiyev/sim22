@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Conduit ITC';
+    src: url('./Conduit\ ITC\ Bold.otf') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Conduit ITC';
+    src: url('./Conduit\ ITC\ Regular.otf') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}

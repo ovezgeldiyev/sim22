@@ -1,0 +1,296 @@
+// 1830px
+@include xxxxxlg-xxxxxxlg {
+  // @include hero-xxxxxlg-xxxxxxlg;
+}
+// 1450px
+@include xxxxlg-xxxxxlg {
+  h1 {
+    font-size: 90px;
+  }
+  h2 {
+    font-size: 70px;
+  }
+
+  // @include hero-xxxxlg-xxxxxlg;
+}
+// 1380px
+@include xxxlg-xxxxlg {
+  h1 {
+    font-size: 80px;
+  }
+  h2 {
+    font-size: 60px;
+  }
+  h3 {
+    font-size: 40px;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  h5 {
+    font-size: 26px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 120%;
+  }
+  body {
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .button {
+    font-size: 20px;
+    line-height: 120%;
+    padding: 10px 22px;
+    &.big {
+      padding: 16px 24px;
+    }
+  }
+  .main {
+    &.big {
+      padding-top: 100px;
+    }
+  }
+  @include header-xxxlg-xxxxlg;
+  @include nav-xxxlg-xxxxlg;
+  @include hero-xxxlg-xxxxlg;
+  @include present-xxxlg-xxxxlg;
+  @include project-xxxlg-xxxxlg;
+  @include comfort-xxxlg-xxxxlg;
+  @include apartment-xxxlg-xxxxlg;
+  @include info-xxxlg-xxxxlg;
+}
+// 1250px
+@include xlg-xxlg-extra {
+  h1 {
+    font-size: 70px;
+  }
+  h2 {
+    font-size: 55px;
+  }
+  @include hero-xlg-xxlg-extra;
+}
+// 1180px
+@include xlg-xxlg {
+  .auto__container {
+    padding: 0 30px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  h3 {
+    font-size: 35px;
+  }
+  h4 {
+    font-size: 26px;
+  }
+  h5 {
+    font-size: 24px;
+  }
+  h6 {
+    font-size: 22px;
+  }
+  @include hero-xlg-xxlg;
+  @include present-xlg-xxlg;
+  @include project-xlg-xxlg;
+  @include features-xlg-xxlg;
+  @include comfort-xlg-xxlg;
+  @include apartment-xlg-xxlg;
+  @include info-xlg-xxlg;
+  @include footer-xlg-xxlg;
+}
+// 1024px
+@include lg-xlg {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 45px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  h6 {
+    font-size: 20px;
+    &.sm {
+      font-size: 16px;
+    }
+  }
+  p {
+    font-size: 18px;
+    &.sm {
+      font-size: 16px;
+    }
+  }
+  a {
+    &.sm {
+      font-size: 16px;
+    }
+  }
+  body {
+    font-size: 18px;
+  }
+  .main {
+    &.big {
+      padding-top: 80px;
+    }
+  }
+  @include header-lg-xlg;
+  @include nav-lg-xlg;
+  @include hero-lg-xlg;
+  @include apartment-lg-xlg;
+}
+// 930px
+@include md-lg {
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  .button {
+    font-size: 18px;
+    padding: 8px 18px;
+    border-width: 1px !important;
+    &.big {
+      padding: 12px 20px;
+    }
+  }
+  @include hero-md-lg;
+  @include present-md-lg;
+  @include project-md-lg;
+  @include features-md-lg;
+  @include comfort-md-lg;
+  @include info-md-lg;
+  @include footer-md-lg;
+}
+// 750px
+@include sm-md {
+  .auto__container {
+    padding: 0 20px;
+  }
+  .select {
+    &::before {
+      width: 7px;
+      height: 7px;
+      right: 15px;
+      border-width: 1px;
+    }
+    select {
+      padding: 8px 28px 8px 15px;
+      font-size: 15px;
+      line-height: 20px;
+    }
+  }
+  .button {
+    &.sm {
+      font-size: 15px;
+      line-height: 20px;
+    }
+  }
+  @include hero-sm-md;
+  @include present-sm-md;
+  @include project-sm-md;
+  @include features-sm-md;
+  @include apartment-sm-md;
+  @include info-sm-md;
+  @include footer-sm-md;
+}
+// 650px
+@include sm-md-extra {
+  @include hero-sm-md-extra;
+  @include info-sm-md-extra;
+}
+// 540px
+@include xsm-sm {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  h6 {
+    font-size: 18px;
+    &.sm {
+      font-size: 14px;
+    }
+  }
+  p {
+    font-size: 16px;
+    &.sm {
+      font-size: 14px;
+    }
+  }
+  a {
+    &.sm {
+      font-size: 14px;
+    }
+  }
+  body {
+    font-size: 16px;
+  }
+
+  .button {
+    font-size: 16px;
+    padding: 8px 16px;
+    &.big {
+      padding: 10px 16px;
+    }
+  }
+  .main {
+    &.big {
+      padding-top: 70px;
+    }
+  }
+  @include header-xsm-sm;
+  @include nav-xsm-sm;
+  @include hero-xsm-sm;
+  @include present-xsm-sm;
+  @include project-xsm-sm;
+  @include features-xsm-sm;
+  @include comfort-xsm-sm;
+  @include apartment-xsm-sm;
+  @include info-xsm-sm;
+  @include footer-xsm-sm;
+}
+// 440px
+@include xxsm-xsm {
+  h2 {
+    font-size: 26px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  @include hero-xxsm-xsm;
+}
+// 380px
+@include xxxsm-xxsm {
+  @include features-xxxsm-xxsm;
+}

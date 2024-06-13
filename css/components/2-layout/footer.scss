@@ -1,0 +1,128 @@
+.footer {
+  padding: 115px 0 100px;
+  border-top: 1px solid #dedede;
+  margin: auto 0 0 0;
+  &__inner {
+    &-main {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+    &-logo {
+      width: 258px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 100%;
+      }
+    }
+    &-row {
+      width: calc(100% - 350px);
+      max-width: 760px;
+      display: flex;
+      justify-content: space-between;
+    }
+    &-col {
+      width: calc(33.3% - 10px);
+      display: flex;
+      flex-direction: column;
+      color: $black;
+      h6 {
+        margin-bottom: 5px;
+      }
+      p {
+        margin-bottom: 5px;
+      }
+      a {
+        margin-bottom: 5px;
+        color: $black;
+        font-size: 18px;
+        line-height: 120%;
+        &:last-child {
+          margin: 0;
+        }
+        &:hover {
+          opacity: 1;
+          color: $primary;
+        }
+      }
+    }
+  }
+}
+// 1180px
+@mixin footer-xlg-xxlg {
+  .footer {
+    padding: 80px 0;
+    &__inner {
+      &-logo {
+        width: 210px;
+      }
+    }
+  }
+}
+// 930px
+@mixin footer-md-lg {
+  .footer {
+    padding: 60px 0;
+    &__inner {
+      &-logo {
+        width: 160px;
+      }
+      &-row {
+        width: calc(100% - 210px);
+        max-width: 540px;
+      }
+      &-col {
+        width: calc(33.3% - 5px);
+      }
+    }
+  }
+}
+// 750px
+@mixin footer-sm-md {
+  .footer {
+    padding: 40px 0;
+    &__inner {
+      &-logo {
+        width: 200px;
+        margin-bottom: 40px;
+      }
+      &-main {
+        flex-direction: column;
+      }
+      &-row {
+        width: 100%;
+        max-width: unset;
+      }
+    }
+  }
+}
+// 540px
+@mixin footer-xsm-sm {
+  .footer {
+    &__inner {
+      &-row {
+        flex-direction: column;
+      }
+      &-col {
+        width: 100%;
+        max-width: unset;
+        margin-bottom: 24px;
+        &:last-child {
+          margin: 0;
+        }
+      }
+      h6,p, a {
+        &.sm {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+// 390px
+@mixin footer-xxxsm-xxsm {
+  .footer {
+  }
+}
